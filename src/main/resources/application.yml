@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
+    org.springframework.boot.autoconfigure: DEBUG
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: bd002defe8f7f51d6894
+            client-secret: 399f2fc0641b80b9b1a3a33b4ace6ef95e5525e5
